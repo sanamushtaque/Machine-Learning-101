@@ -1,4 +1,4 @@
-# Machine-Learning-101
+# Machine Learning 101
 
 Machine Learning has become the baseline for majority of the intelligent systems today. Whether the application is in the domain of Artificial Intelligence or Data Science, it is considered the building block for embryonic systems in these fields. Despite its prevalence in present-day systems, the basics of Machine Learning are often confused with those of AI or Data Science. This blog is an effort to clarify what Machine Learning is about, and what it entails.
 
