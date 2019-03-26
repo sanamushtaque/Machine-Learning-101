@@ -33,10 +33,18 @@ The cost function associated with every algorithm is defined as the ‘cost’ o
 3.	Confusion Matrix
 
 A confusion matrix is a visual representation of the performance of the machine learning model. It classifies all predictions into four categories and calculates various metrics e.g. precision, recall and others.
+
    a.	True Positives: When the predictions and actual label, both are true.
+   
    b.	False Positives: When the predictions are true, but the actual label are not.
+   
    c.	True Negatives: When the predictions and actual label, both are false.
+   
    d.	False Negatives: When the predictions are false, but the actual label are not.
+   
+   <p align="center">
+      <img height="200" src="images/confusionmatrix.png">
+   </p>
    
 4.	Outliers
 
@@ -50,4 +58,63 @@ Underfitting occurs when the model is unable to capture the trend in underlying 
 
 Overfitting occurs when the model performs well on training set but is unable to fit well to test data. The training set error is significantly lower than that of test set error.
 
+<p align="center">
+   <img height="200" src="images/fitting.png">
+</p>
 
+
+## Machine Learning Types
+
+The machine learning algorithms are generally divided into three types:
+
+1.	Supervised Learning
+
+This approach involves using a labeled dataset i.e. the output of each training example in the dataset is provided. Some examples that rely on this type of learning are Linear Regression and Decision Trees.
+
+2. Unsupervised Learning
+
+This approach involves using an unlabeled dataset i.e. the output of each training example in the dataset is not provided. Some examples that rely on this type of learning are K-Mean Clustering.
+
+3. Reinforcement Learning
+
+This approach is used when the purpose is to increase efficiency. The model interacts with the environment and then calculates the cost or reward. One of the major characteristic of this approach is training itself continuously via iterative trial and error and choosing the one with maximum performance.
+
+## Machine Learning Algorithms
+
+While the approaches to solving a problem statement differ, one of the most vital part is to choose the right algorithm to decipher the data. Below are the few algorithms that are most commonly used, and a great beginning step for those interested in Machine Learning.
+
+1.	Linear Regression
+
+Linear Regression is used to predict continuous output values. It is represented by an equation that uses ‘line of best fit’ to fit to the underlying data. The parameters determined by the model are y-intercept and the slope of the best-fit line. It is one of the oldest, simplest and fastest technique, and a good algorithm to begin with if you have just started with Machine Learning Algorithms.
+
+<p align="center">
+   <img height="200" src="images/linear-regression.png">
+</p>
+
+2.	Logistic Regression
+
+Logistic Regression is used to predict discrete values. To fit the values between 0 and 1, a sigmoid function is used. You can either use the output directly as probability or define a threshold for outputs e.g. if output is greater than 0.5, assign 1 to the label. It is also an efficient and simple algorithm.
+
+<p align="center">
+   <img height="200" src="images/logistic-regression.png">
+</p>
+
+3.	Decision Trees
+
+Decision Trees solve regression and classification problems by using tree-like model for decision making. The dataset is split into smaller subsets, and the resulting tree is made up of decision nodes and leaf nodes. The leaf nodes are the output labels.
+
+<p align="center">
+   <img height="200" src="images/decision-tree.png">
+</p>
+
+4.	Neural Networks
+
+Neural Networks are developed on the working of human brain. It is made up of input layer, output layer and sometimes, hidden layers i.e. the layers between input and output layer. Each layer is made up of nodes, which can be called a function per se. Each node has a ‘weight’, which numerates the preference of the node.
+
+<p align="center">
+   <img height="200" src="images/neural-network.png">
+</p>
+
+5.	Naïve Bayes
+
+Naïve Bayes is based on the assumption that each feature is independent of the other feature. It calculates conditional probability of each class based on the features, using it to determine the output labels. It is a simple algorithm, which is easy to train, and can be more appropriate at times than complex algorithms.
