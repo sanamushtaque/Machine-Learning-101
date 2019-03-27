@@ -125,7 +125,7 @@ TensorFlow is Google's open source machine learning framework. It is popular amo
 
 Apache SystemML is a flexible machine learning system that automatically scales algorithms written in R or Python to big data i.e. Spark and Hadoop clusters. You can access the documentation for SystemML on this link: http://apache.github.io/systemml/
 
-To view these terms and algorithm used in a Jupyter Notebook, please refer to https://github.com/sanamushtaque/ML-Notebook.git
+To view these terms and algorithm used in a Jupyter Notebook, please refer to https://github.com/sanamushtaque/ML-Notebook/ML-Basics.ipynb
 
 All the resources and terms introduced are incredibly accessible, and can be incorporated in your algorithms by using simple **import** statements in jupyter notebooks. I hope this blog helped in clarifying concepts related to Machine Learning, and introducing some libraries and frameworks to play around with data. 
 
