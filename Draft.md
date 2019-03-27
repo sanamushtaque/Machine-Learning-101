@@ -4,7 +4,7 @@ Machine Learning has become the baseline for majority of the intelligent systems
 
 Machine Learning is generally defined as enabling computers to learn on the basis of data being fed, without being explicitly programmed. The fact that there are almost 3.9 billion internet users all over the world indicates the data being generated is humungous. To deal with massive data, Machine Learning models are highly convenient given they have optimum resources. In today’s landscape, certain factors such as huge volume of data, various varieties of data like images and audios along with cheaper and greater availibility of computational resources has led to Machine Learning become a favorite for Data Analysis and Modeling.
 
-## Machine Learning Terminolgies
+## Machine Learning Terminologies
 
 When you start working on Machine Learning, one may come across various terms that would lead to confusion. This section will focus on elaborating those terms so as to give the readers an idea behind those terms.
 
@@ -107,14 +107,26 @@ Decision Trees solve regression and classification problems by using tree-like m
    <img height="200" src="images/decision-tree.png">
 </p>
 
-4.	Neural Networks
+## Machine Learning SOMETHING
 
-Neural Networks are developed on the working of human brain. It is made up of input layer, output layer and sometimes, hidden layers i.e. the layers between input and output layer. Each layer is made up of nodes, which can be called a function per se. Each node has a ‘weight’, which numerates the preference of the node.
+1. Pandas
 
-<p align="center">
-   <img height="200" src="images/neural-network.png">
-</p>
+Pandas is an open source python library famous for high performance data manipulation and analysis. You can access the documentation for Pandas on this link: https://pandas.pydata.org/pandas-docs/stable/index.html
 
-5.	Naïve Bayes
+2. Spark
 
-Naïve Bayes is based on the assumption that each feature is independent of the other feature. It calculates conditional probability of each class based on the features, using it to determine the output labels. It is a simple algorithm, which is easy to train, and can be more appropriate at times than complex algorithms.
+Spark is an open source cluster computing framework, which makes data processing up to 100 times faster by eliminating time lag using parallel processing of data. You can access the documentation for Spark on this link: https://spark.apache.org/docs/latest/
+
+3. TensorFlow
+
+TensorFlow is Google's open source machine learning framework. It is popular among developers for designing, developing and training deep learning networks. You can access the documentation for TensorFlow on this link: https://www.tensorflow.org/guide
+
+4. SystemML
+
+Apache SystemML is a flexible machine learning system that automatically scales algorithms written in R or Python to big data i.e. Spark and Hadoop clusters. You can access the documentation for SystemML on this link: http://apache.github.io/systemml/
+
+To view these terms and algorithm used in a Jupyter Notebook, please refer to https://github.com/sanamushtaque/ML-Notebook.git
+
+All the resources and terms introduced are incredibly accessible, and can be incorporated in your algorithms by using simple **import** statements in jupyter notebooks. I hope this blog helped in clarifying concepts related to Machine Learning, and introducing some libraries and frameworks to play around with data. 
+
+Good luck exploring machine learning!
